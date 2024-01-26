@@ -81,8 +81,8 @@
     
         <input type='hidden' name='data_type' value='advanced'>
         <input type='hidden' name='page' value='7'> <!-- Siguiente página después de avanzado es 6 -->
-        <button class=" button1 btn btn-primary" type='submit'>Siguiente página</button>
+        <button class=" button1 btn btn-primary" type='submit'>Send</button>
     </form>
-    <a href="page_installation.php"><button type="submit" class=" button2 btn btn-primary ">Anterior</button></a>
+    <a href="page_data_type_selection.php"><button class="button2 btn btn-primary ">Anterior</button></a>
 </body>
 </html>

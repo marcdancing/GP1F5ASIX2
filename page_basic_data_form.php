@@ -12,60 +12,59 @@
 
 <body>
     <div class="contentBasicForm">
-    <h3>Formulario para introducir datos básicos</h3>
-    <!-- position-absolute top-50 start-50 translate-middle -->
-    <form class="formulari-basic form-basic" method="POST" action="page_show_fileconfig.php">
-        <div class="mb-3">
-            <label for="authorative" class="form-label">authoritative</label>
-            <input type="text" class="form-control" name="authorative">
-        </div>
-        <div class="mb-3">
-            <label for="authorative" class="form-label">ddns-update-style</label>
-            <input type=text" class="form-control" name="ddns_update_style">
-        </div>
-        <div class="mb-3">
-            <label for="authorative" class="form-label">domain-name</label>
-            <input type="text" class="form-control" name="domain_name">
-        </div>
+        <h3>Formulario para introducir datos básicos</h3>
+        <!-- position-absolute top-50 start-50 translate-middle -->
+        <form class="formulari-basic form-basic" method="POST" action="page_show_fileconfig.php">
+            <div class="mb-3">
+                <label for="authorative" class="form-label">authoritative</label>
+                <input type="text" class="form-control" name="authorative" required>
+            </div>
+            <div class="mb-3">
+                <label for="authorative" class="form-label">ddns-update-style</label>
+                <input type="text" class="form-control" name="ddns_update_style" required>
+            </div>
+            <div class="mb-3">
+                <label for="authorative" class="form-label">domain-name</label>
+                <input type="text" class="form-control" name="domain_name" required>
+            </div>
 
-        <div class="mb-3">
-            <label for="authorative" class="form-label">domain-name-severs</label>
-            <input type="text" class="form-control" name="domain_name_servers">
-        </div>
+            <div class="mb-3">
+                <label for="authorative" class="form-label">domain-name-severs</label>
+                <input type="text" class="form-control" name="domain_name_servers" required>
+            </div>
 
-        <div class="mb-3">
-            <label for="authorative" class="form-label">opttion routers</label>
-            <input type="text" class="form-control" name="option_routers">
-        </div>
+            <div class="mb-3">
+                <label for="authorative" class="form-label">opttion routers</label>
+                <input type="text" class="form-control" name="option_routers" required>
+            </div>
 
-        <div class="mb-3">
-            <label for="authorative" class="form-label">default-lease-time</label>
-            <input type="text" class="form-control" name="default_lease_time">
-        </div>
+            <div class="mb-4">
+                <label for="authorative" class="form-label">default-lease-time</label>
+                <input type="text" class="form-control" name="default_lease_time" required>
+            </div>
 
-        <div class="mb-3">
-            <label for="authorative" class="form-label">max-lease-time</label>
-            <input type="text" class="form-control" name="max_lease_time">
-        </div>
+            <div class="mb-4">
+                <label for="authorative" class="form-label">max-lease-time</label>
+                <input type="text" class="form-control" name="max_lease_time" required>
+            </div>
 
-        <div class="mb-3">
-            <label for="authorative" class="form-label">Subnet  </label>
-            <input type="text" class="form-control" name="subnet">
-        </div>
+            <div class="mb-4">
+                <label for="authorative" class="form-label">Subnet  </label>
+                <input type="text" class="form-control" name="subnet" required>
+            </div>
 
-        <div class="mb-3">
-            <label for="authorative" class="form-label">Mask</label>
-            <input type="text" class="form-control" name="mask">
-        </div>
+            <div class="mb-4">
+                <label for="authorative" class="form-label">Mask</label>
+                <input type="text" class="form-control" name="mask" required>
+            </div>
 
-        <div class="mb-3">
-            <label for="authorative" class="form-label">Rage</label>
-            <input type="text" class="form-control" name="range">
-        </div>
-        <button type="submit" class=" button1 btn btn-primary ">Següent</button>
-        <a href="page_basic_data_form.php"><button type="submit" class=" button2 btn btn-primary ">Anterior</button></a>
-    
-    </form>
+            <div class="mb-4">
+                <label for="authorative" class="form-label">Rage</label>
+                <input type="text" class="form-control" name="range" required>
+            </div>
+            <button type="submit" class="btn btn-primary ">Send</button>
+        </form>
+        <a href="page_data_type_selection.php"><button type="submit" class="btn btn-primary ">Anterior</button></a>
     </div>
     
     <!-- <a href="index.php">Atras</a> . <a href="page_basic_data_form.php">Siguiente</a> -->
