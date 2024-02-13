@@ -35,8 +35,8 @@
         </nav>
 
         <div class=" welcome position-absolute top-50 start-50 translate-middle">
-            <span>Projecte GP1 - ASIX2</span><br>
-            <button class="position-absolute top-50 start-50 translate-middle button" onclick="window.location.href='page_installation.php'">Accedeix!</button><br>
+            <span>Proyecto GP1 - ASIX2</span><br>
+            <button class="position-absolute top-50 start-50 translate-middle button" onclick="window.location.href='page_installation.php'">Accede!</button><br>
             <span class="text-gray ">Grup 06</span>
         </div>
     </div>
